@@ -37,7 +37,7 @@ public class CheckCup extends android.os.AsyncTask<String, Integer, String> {
 			        ByteArrayOutputStream out = new ByteArrayOutputStream();
 			        response.getEntity().writeTo(out);
 			        out.close();
-					return out.toString();
+				return out.toString();
 			 } 
 			 else
 			 {
